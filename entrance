@@ -1,0 +1,8 @@
+#!/bin/bash
+
+source /opt/linux/install-basic-software.sh
+source /opt/linux/android-devel-env.sh
+source /opt/linux/add-alias-define.sh
+source /opt/linux/add-java-env.sh
+source /opt/linux/linux-tool-box.sh
+source /opt/linux/modify-bashrc.sh
