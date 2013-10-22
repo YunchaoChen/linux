@@ -1,165 +1,3 @@
-sudo mv /usr/share/emacs23/site-lisp/color-theme-6.6.0/ /usr/share/emacs23/site-lisp/color-theme
-ls
-cd /usr/share/emacs23/site-lisp/color-theme/
-cd ..
-ls
-cd
-ls
-cd /opt/
-ls
-cd profiles/
-ls
-git status 
-ls
-pwd
-cat bash_history 
-exit
-emacs
-/usr/bin/emacs
-ls
-exit
-/usr/bin/emacs
-ls
-rm log.txt 
-ls
-exit
-cd Desktop/
-ls
-cls
-ls
-edit mtk6577_quick_root.tar.bz2 
-cd mtk6577_quick_root/
-ls
-emacs RunMe.sh 
-which adb
-cd
-cp /opt/profiles/bin/adb ~/Desktop/
-cd Desktop/
-ls
-tar cjf adb.tar.bz2 adb 
-exit
-adb shell
-adb root
-adb push /opt/AnZhi_4410.apk /system/app/
-adb remount
-adb push /opt/AnZhi_4410.apk /sdcard/
-ls
-cd
-cd Desktop/mtk6577_quick_root/
-ls
-emacs mtk6577_quick_root.
-emacs mtk6577_quick_root.sh 
-ls
-ls -l
-cd ..
-ls
-rm -rf mtk6577_quick_root
-ls
-exit
-ls
-make
-cd ..
-make
-./openRTSP rtsp://10.21.130.146/video.mp4
-cd testProgs/
-./openRTSP rtsp://10.21.130.146/video.mp4
-ls
-cd ..
-git status 
-git checkout .
-git status 
-rm -rf .cproject .project audio-MPEG4-GENERIC-2 testProgs/audio-MPEG4-GENERIC-2 testProgs/video-H264-1 video-H264-1
-git status 
-ls
-rm -rf liveMedia/cscope.out 
-ls
-cscope-indexer -r 
-git status 
-cd ..
-ls
-rm -rf live/
-ls
-mv debian-7.1.0-i386-CD-1.iso software/
-ls
-edit software/live555-latest.tar.gz 
-ls
-cd live/
-ls
-cd ..
-mv live/ live555
-cd live555/
-ls
-git status 
-git init .
-git status 
-git commit -s
-git add .
-git commit -s
-git status 
-ls
-./genMakefiles linux
-ls
-git status 
-git add .
-git commit -s
-git status 
-ls
-make -j4
-ls
-git status 
-ls
-cd testProgs/
-ls
-cd ..
-ls
-make
-git status 
-ls
-git log 
-ls
-find ./ -name Makefile
-emacs Makefile
-CFLAGS='-g -O0' ./genMakefiles linux
-git status 
-emacs Makefile
-emacs testProgs/Makefile
-git status
-ls
-find | grep -ri gitignore
-ls
-cd
-ls .gitignore 
-rm .gitignore 
-ls
-cd -
-ls
-git status 
-ls
-emacs .gitignore
-git status 
-ls
-git status 
-make
-ls
-make all
-ls
-find ./ -name \*.cpp | xargs touch
-make -j2
-git status 
-ls
-git add .
-git commit -s
-git status 
-ls
-make
-ls
-pwd
-ls
-cd testProgs/
-ls
-./openRTSP rtsp://10.21.130.146/video.mp4
-cd
-ls
 cd Desktop/
 ls
 mkdir blog
@@ -1996,5 +1834,167 @@ mv new /opt/linux/bash_history
 ls /opt/linux/bash_history
 rm .bashrc 
 ln -s /opt/linux/bash_history .bashrc
+ls
+exit
+java
+ls
+exit
+ls
+java
+ls
+ls
+l
+ll
+ls
+users -m user
+useradd -m user
+sudo /usr/sbin/useradd -m user
+ls
+cd /home/user/
+ls
+ls -a
+cat .bashrc 
+cp .bashrc ~/
+ls
+cd
+ls
+bash
+exit
+ls
+java
+ls
+ls -l .bash_history 
+rm .bash_history
+ln -s /opt/linux/bash_history .bash_history
+rm .bash_history
+ln -s /opt/linux/bash_history .bash_history
+ls -l .bash_history 
+cat /opt/linux/bash_history
+ls
+cd /opt/
+ls
+cd linux
+ls
+cp /opt/profiles/bash_history bash_history 
+ls
+git status 
+history 
+ls
+git status 
+git add .
+ls
+git status 
+git commit -s
+git status 
+git push origin master:master
+ls
+cd /opt/profiles/
+ls
+cd install/
+ls
+cat install-package.rc 
+ls
+cd ..
+ls
+cd bin/
+ls
+cd ..
+ls
+mv bin/ /opt/linux/utils
+cd
+cd /opt/linux/utils/
+ls
+pwd
+cd ..
+ls
+emacs modify-bashrc.sh 
+bash
+ls
+cd
+ls
+ls -l .bashrc 
+rm -rf .bashrc 
+bash
+exit
+java
+emacs
+ls
+cls
+ls
+exit
+ls
+l
+ll
+ls
+emacs -nw .bashrc 
+bash
+exit
+ls
+exit
+sudo apt-get install sdcv 
+cd
+cd .stardict/
+ls
+cd
+wget https://github.com/emacsmirror/sdcv/blob/master/sdcv.el
+ls
+cat sdcv.el 
+ls
+cd .emacs.d/
+ls
+mkdir sdcv
+cd sdcv/
+git clone https://github.com/emacsmirror/sdcv.git
+ls
+cd sdcv/
+ls
+cd ..
+ls
+git clone https://github.com/emacsmirror/showtip.git
+ls
+mv sdcv/sdcv.el  .
+mv showtip/showtip.el .
+ls
+git status 
+ls
+pwd
+ls
+cd ..
+ls
+cd ..
+ls
+cp /usr/share/stardict/dic/ . -r
+ls
+cd dic/
+ls
+smb
+ls
+tar xzf dic.tar.gz 
+ls
+cd dic/
+ls
+cd ../..
+ls
+rm -rf dic/
+ls
+rm sdcv.el 
+ls
+cd /opt/
+ls
+cd emacs_bak/
+ls
+cd ..
+ls
+git clone https://github.com/YunchaoChen/emacs.git
+ls
+cd emacs
+ls
+cp /opt/profiles/emacs/emacs . 
+ls
+cat emacs 
+ls
+mkdir emacs.d
+ls
+touch setup-emacs.sh
 ls
 exit
